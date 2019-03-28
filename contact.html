@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="/apple-touch-icon.png?v=m2lzAgXALO" rel="apple-touch-icon" sizes="180x180">
+  <link href="/favicon-32x32.png?v=m2lzAgXALO" rel="icon" sizes="32x32" type="image/png">
+  <link href="/favicon-16x16.png?v=m2lzAgXALO" rel="icon" sizes="16x16" type="image/png">
+  <link href="/manifest.json?v=m2lzAgXALO" rel="manifest">
+  <link href="/safari-pinned-tab.svg?v=m2lzAgXALO" rel="mask-icon">
+  <link href="/favicon.ico?v=m2lzAgXALO" rel="shortcut icon">
+  <meta content="#376eff" name="theme-color">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+  <meta content="This is Bazell's Portfolio. What’s important is the drive to see a project through no matter what, it's easy to quit when things get hard, but to perserveer no matter what is the difficult part." name="descrpition">
+  <meta content="html5, html, css3, css, personal, portfolio, hard-work, projects, learning, js, javascript, jquery, sass, google, material, design" name="keywords">
+  <meta content="index,follow" name="robots">
+  <title>BazellP.com | Contact.</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112271672-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112271672-1');
+  </script>
+  <link href="assets/styles/css/app.css" media="all" rel="stylesheet">
+  <script src="assets/scripts/modernizr.js"></script><!-- Modernizr -->
+</head>
+<body>
+  <section class="row--offWhite contact">
+    <section class="contact__two-third">
+      <header class="contact__header">
+        <h2 class="contact__awesome">Let's create Awesome!</h2>
+        <article class="contact__subtitle">
+          Schedule a project, grab lunch or say hello.
+        </article>
+      </header>
+      <form class="contact__form" id="my_form" onsubmit="submitForm(); return false;">
+        <div class="contact__input">
+          <h6>* is a required field</h6>
+          <h5 class="contact__form__header">Name:</h5><input name="formName" placeholder="Name*" type="text" id="formName" required style="width:195px">
+        </div>
+        <div class="contact__input">
+          <h5 class="contact__form__header">E-Mail:</h5><input name="formEmail" placeholder="Apple@gmail.com*" id="formEmail" type="email" required style="width:195px">
+        </div>
+        <div class="contact__input">
+          <h5 class="contact__form__header">How'd you hear of me?</h5>
+          <select name="formSelect" id="formHear">
+            <option value="Behance">
+              Behance
+            </option>
+            <option value="Instagram">
+              Instagram
+            </option>
+            <option value="Friend">
+              Referred by a friend
+            </option>
+            <option value="IDK">
+              I don't know
+            </option>
+            <option value="Other">
+              Other
+            </option>
+          </select>
+        </div>
+        <div class="contact__input">
+          <h5 class="contact__form__header">Which services interest you?</h5>
+
+          <div class="contact__services">
+
+          <!-- UI/UX -->
+          <div class="rectangle sp15">
+            <input id="formService1" name="wDes" type="checkbox" value="UI_UX_Design">
+            <label for="formService1">UI/UX Design</label>
+          </div>
+          <!-- Web Dev -->
+          <div class="rectangle sp15">
+            <input id="formService2" name="wDev" type="checkbox" value="Web_Dev">
+            <label for="formService2">Web Development</label>
+          </div>
+          <!-- Lunch -->
+          <div class="rectangle sp15">
+            <input id="formService3" name="lunch" type="checkbox" value="Lunch">
+            <label for="formService3">Let's grab lunch!</label>
+          </div>
+        </div>
+        </div>
+
+        <!-- Text area -->
+        <div class="contact__input">
+          <h5 class="contact__form__header">Briefly describe your project:</h5>
+          <textarea placeholder="What you’re looking to have done, your goals for the design/redesign, etc." cols="30" id="formMessage" name="formMessage" rows="6" required></textarea>
+        </div>
+        <p><input id="mybtn" type="submit" value="Submit Form"><h4 style="margin-bottom: 4.6875rem;"><span id="status"></span></h4></p>
+      </form>
+    </section>
+    <section class="contact__one-third">
+      <img class="contact--mail mail" src="assets/img/mail.png" alt="">
+    </section>
+  </section>
+  <section class="row--black">
+    <div class="container">
+      <div class="footer">
+        <div class="footer__social">
+          <a href="https://www.instagram.com/elbitapmoc/" target="_blank"><img alt="github link" src="assets/img/ig.svg"></a> <a href="https://codepen.io/elbitapmoC/" target="_blank"><img alt="codepen link" src="assets/img/cp.svg"></a> <a href="https://www.linkedin.com/in/bmpjr/" target="_blank"><img alt="linkedIn link" src="assets/img/li.svg"></a>
+        </div>
+        <div class="footer__copy">
+          <aside id="txtW">
+            Hand Designed &amp; Developed.<br>
+            All Works &copy; BazellP 2018
+          </aside>
+        </div>
+        <div class="footer__quote">
+          <aside>
+            "I'm still learning"<br>
+            -Michaelangelo (Age 87)
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+  <a class="menu-link" href="#">Menu</a>
+  <nav class="nav">
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="works.html">Works</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="capa.html">Capabilities</a></li>
+      <li><a class="current" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <script>
+    let formData = new FormData();
+
+    function _(id) {
+      return document.getElementById(id);
+    }
+
+    //see if box is checked.
+    function checkServices() {
+      event.preventDefault()
+      if (document.getElementById("formService1").checked === true){
+        console.log("UI/UX is checked.");
+        formData.append("formService1",_("formService1").value);
+      }
+      if (document.getElementById("formService2").checked === true){
+        console.log("Web Dev is checked.");
+        formData.append("formService2",_("formService2").value);
+      }
+      if (document.getElementById("formService3").checked === true){
+        console.log("Lunch is checked.");
+        formData.append("formService3",_("formService3").value);
+      }
+    }
+
+  function submitForm(){    
+    _("mybtn").disabled=true;
+    _("status").innerHTML = "Please wait, working magic.";
+    formData.append("formName", _("formName").value);
+    formData.append("formEmail",_("formEmail").value);
+    formData.append("formHear",_("formHear").value);
+    checkServices();
+    formData.append("formMessage",_("formMessage").value);
+    let ajax = new XMLHttpRequest();
+    ajax.open( "POST", "example_parser.php" );
+    ajax.onreadystatechange = function() {
+      if(ajax.readyState == 4 && ajax.status == 200) {
+        if(ajax.responseText == "success"){
+          _("my_form").innerHTML = "Great! "+_("formName").value+", your message has been sent. I'll be in touch.";
+        } else {
+          _("status").innerHTML = ajax.responseText;
+          _("mybtn").disabled = false;
+        }
+      }
+    }
+    ajax.send(formData);
+  }
+  </script>
+  <script src="assets/scripts/jquery-2.1.4.js"></script> 
+  <script>const on_index=false;</script>
+  <script src="assets/scripts/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
