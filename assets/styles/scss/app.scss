@@ -1,0 +1,28 @@
+//Generic – reset and/or normalize styles, box-sizing definition, etc. This is the first layer which generates actual CSS.
+@import "./generic/reset";
+@import "./generic/normalize";
+@import "./generic/box";
+
+//Settings – used with preprocessors and contain font, colors definitions, etc.
+@import "./settings/fonts";
+@import "./settings/colors";
+
+//Elements – styling for bare HTML elements (like H1, A, etc.). These come with default styling from the browser so we can redefine them here.
+@import "./elements/body";
+
+@import "./animations/pageScroll";
+
+//Objects – class-based selectors which define undecorated design patterns, for example media object known from OOCSS
+//Key is an object
+//a bolt is an object.
+@import "./objects/menu";
+@import "./objects/landing";
+@import "./objects/lr";
+@import "./objects/cw";
+@import "./objects/aa";
+@import "./objects/case";
+@import "./objects/about";
+@import "./objects/works";
+@import "./objects/contact";
+@import "./objects/footer";
+@import "./objects/abilities";

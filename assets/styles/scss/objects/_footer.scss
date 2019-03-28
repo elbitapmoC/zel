@@ -1,0 +1,50 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  padding: 50px 115px;
+  letter-spacing: initial;
+  &__quote{
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  &__copy{
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    width: 100%;
+  }
+  &__social{
+    display: flex;
+    width: 100%;
+    max-width: 250px;
+    justify-content: space-around;
+  }
+  aside{
+    font-size: 20px;
+    line-height: 150%;
+    color: $black;
+    margin: 0;
+  }
+}
+
+.footer__quote aside {
+  color: $yellow;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1100px){
+  .footer{
+    flex-direction: column-reverse;
+    padding: 50px;    
+  }
+  .footer__copy{
+    padding: 50px 0px;
+  }
+  .footer aside {
+    text-align: center;    
+  }
+}

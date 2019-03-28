@@ -1,0 +1,60 @@
+.about{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  &__text{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top:$s150;
+    max-width: 718px;
+  }
+  &__title{
+    color: $black;
+    text-align: center;
+    padding-bottom:$s75;
+  }
+  &__likes{
+    width: 100%;
+    position: relative;
+  }
+}
+
+@media screen and (max-width:1196px){
+  .about__likes{
+    padding-top: $s175;
+  }
+}
+
+@media screen and (max-width:1024px){
+  .about__likes{
+    padding-top: 12.5rem;
+    margin-top: 12.5rem;
+  }
+}
+
+@media screen and (max-width:913px){
+  .about__text{
+    position: relative;
+    margin: 0 auto;
+    left: unset;
+    transform: initial;
+  }
+  .about__likes{
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width:825px){
+  .about__text{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media screen and (max-width:405px){
+  .about__text{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}

@@ -1,0 +1,27 @@
+// ---------------------------COLORS---------------------------\\
+
+$black: #000;
+$white: #fff;
+$offWhite: #f2f2f2;
+$yellow: #ffcc33;  /* fallback for old browsers */
+$yellowCS: -webkit-radial-gradient(at bottom left, #ffcc33, #ffb347);  /* Chrome 10-25, Safari 5.1-6 */
+$yellowALL: radial-gradient(at bottom left,  #ffcc33, #ffb347); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+$blue: #3366FF;
+$color-1: #2b334f; // Pickled Bluewood
+
+// ---------------------------SPACING---------------------------\\
+
+//175px;
+$s175: 10.94rem;
+//150px;
+$s150: 9.375rem;
+//125px;
+$s125: 7.813rem;
+//100px;
+$s100: 6.25rem;
+//75px;
+$s75: 4.688rem;
+//50px;
+$s50: 3.125rem;
+//25px
+$s25: 1.563rem;

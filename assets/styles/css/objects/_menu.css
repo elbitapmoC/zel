@@ -1,0 +1,55 @@
+.menu-link {
+  color: #fff;
+  display: inline-block;
+  font-size: 14.5px;
+  position: fixed;
+  z-index: 9999;
+  right: 0px;
+  top: 0px;
+  background: black;
+  padding: 40px 10px 10px 10px;
+  margin: 0px; }
+  .menu-link:before {
+    content: "";
+    background: #fff;
+    height: 4px;
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin: 0 0 0 -20px;
+    display: block;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out; }
+  .menu-link:after {
+    content: "";
+    background: #fff;
+    height: 4px;
+    width: 40px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin: 0 0 0 -20px;
+    display: block;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out; }
+  .menu-link.close:before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 20px;
+    width: 25px;
+    margin: 0 0 0 -13px; }
+  .menu-link.close:after {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 20px;
+    width: 25px;
+    margin: 0 0 0 -13px; }

@@ -1,0 +1,145 @@
+.case{
+  &__container{
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  &__center-text{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 24px;
+    padding-bottom:$s50;
+    text-align: center;
+  }
+  &__cta{
+    text-align: center;
+    display: block;
+    max-width: 600px;
+    width: 100%;
+    background-color: #3366FF;
+    color: white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin: 0 auto;
+    border-bottom: black 6px solid;
+    font-family: "Playfair Display";
+    transition: .3s ease-in-out
+  }
+  &__cta:hover{
+    transform: translateY(-5px);
+  }
+
+  &__p{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: $s50 0px;
+  }
+  &__p-personality{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: $s50 0px;
+    list-style: initial;
+  }
+  &__p-personality li{
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+  &__section__user-title{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-family: "Playfair Display";
+  }
+  &__p-img{
+    display: block;
+    text-align: center;
+    padding: $s50 0px;
+    width: 100%
+  }
+  &__quote{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-style: italic;
+    color: rgba($black, .65);
+    padding-left: $s50;
+    border-left: 5px solid $blue;
+  }
+  &__img{
+    width: 100%;
+    padding: $s50 0px;
+  }
+  &__section-heading{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: $s50 0px;
+  }
+}
+
+.pb100{
+  padding-bottom: $s100;
+}
+.pb50{
+  padding-bottom: $s50;
+}
+.pt50{
+  padding-top: $s50;
+}
+
+.caseLR{
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: flex-end;
+  background-image: url("../../img/lrCaseHeader.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  &__text{
+    padding-top: $s125;
+    padding-bottom: $s50;
+    text-align: center;
+  }
+  &__title{
+    padding-bottom: 15px;
+  }
+  &__subtitle{
+    font-family: "Playfair Display";
+    font-size: 21px;
+    color: #ACACAC;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width:680px){
+  .caseLR{
+    padding-left:2.5rem;
+    padding-right:2.5rem;
+  }
+  .case__p,.case__section-heading,.case__section__user-title,.case__p-personality{
+    padding-left:2.5rem;
+    padding-right:2.5rem;
+  }
+  .case__quote{
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: 3.5rem;
+  }
+}
+
+@media screen and (max-width:500px){
+  .case__p-img img{
+    max-width: 300px;
+  }
+  .case__quote{
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+  }
+  .case__p,.case__quote{
+    font-size: 20px;
+  }
+}

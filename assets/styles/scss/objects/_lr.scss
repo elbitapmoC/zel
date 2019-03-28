@@ -1,0 +1,59 @@
+.lr{
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  height: 100vh;
+
+  a{
+    color: black;
+  }
+  
+  &__text{
+    position: relative;    
+    padding-left:5rem;
+    padding-right:5rem;
+    padding-bottom: $s125;
+  }
+  &__num{
+    position: absolute;
+    color: #D8D8D8;
+    text-shadow: 0px 10px 30px rgba($black,0.25);
+    left: $s25;
+    top: -66px;
+    z-index: -1;
+  }
+  &__one-third{
+    width:33.33334%;
+  }
+}
+
+@media screen and (max-width:1100px){
+  .lr__text{
+    padding-left:2.5rem;
+    padding-right:2.5rem;
+  }
+  .lr__num{
+    top: -43px;
+  }
+}
+
+@media screen and (max-width:992px){
+  .lr{
+    align-items: flex-start;
+    &__text{
+      position: relative;    
+      padding-left:5rem;
+      padding-right:5rem;
+      padding-top: $s125;
+    }
+    &__num{
+      top: 43px;
+    }
+    &__one-third{
+      width: 100%;
+    }
+  }
+}
